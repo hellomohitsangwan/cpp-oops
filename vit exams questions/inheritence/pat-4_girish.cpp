@@ -27,6 +27,8 @@
 
 // 82000
 
+
+// sol. =>
 #include <iostream>
 using namespace std;
 
