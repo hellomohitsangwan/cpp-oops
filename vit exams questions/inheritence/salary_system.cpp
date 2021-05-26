@@ -12,7 +12,6 @@ class employee {
         cout<<emp_id<<endl<<emp_name<<endl<<gender<<endl<<designation<<endl;
     }
 };
-
 class account {
     public:
     int acc_no;
@@ -31,7 +30,7 @@ class payroll : public employee , public account {
     void getDetails() {
         employee :: get();
         account :: get();
-        cin>>bp>>da>>hra>>pt>>ip;
+        cin>>bp>>da>>hra>>pf>>pt>>ip;
     }
     void put_data() {
         int netSalary = (bp + da + hra) - (pf + pt + ip);
