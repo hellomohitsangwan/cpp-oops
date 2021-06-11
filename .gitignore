@@ -1,0 +1,6 @@
+*.bin
+*.exe
+*.vscode
+*.cph
+d.cpp
+d2.cpp
