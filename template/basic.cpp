@@ -15,7 +15,7 @@ class vector{
     T dotProduct(vector &v) {
         T dp = 0;
         for(int i = 0 ; i < n; i++) {
-            dp += this->vecArr[i] * v.vecArr[i];
+            dp += vecArr[i] * v.vecArr[i];
         }
         return dp;
     }
